@@ -1,0 +1,53 @@
+body {
+    background-color:black;
+    background-image: url("../images/wolves.png");
+    /* background-image: url(wolves.png) */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1, .random, .your-score {
+    font-size: 30px;  
+}
+
+h1 {
+    padding: 20px;
+}
+
+.stone-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.container {
+    width: 800px;
+    margin:auto;
+}
+
+.instructions {
+    background-color: rgb(55, 216, 216);
+    color:rgb(43, 40, 40);
+    width: 780px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 80px rgb(55, 216, 216);
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.75;   
+}
+
+.the-game {
+    margin-top: 30px;
+}
+
+.box {
+    width: 246.5px;
+    padding: 10px;
+    height: 100px;
+    float: right; 
+}
